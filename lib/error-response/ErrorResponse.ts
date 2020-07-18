@@ -1,4 +1,4 @@
-export interface IErrorResponse {
+interface IErrorResponse {
 	timestamp: Date;
 	status: number;
 	error: string;

@@ -15,7 +15,7 @@ interface IFormatterParams {
 	timestamp: any;
 }
 
-export class Logger {
+class Logger {
 	private logger: winston.Logger;
 
 	constructor(lvl: LogLevel = LogLevel.INFO) {

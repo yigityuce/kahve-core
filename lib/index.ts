@@ -1,3 +1,7 @@
-export * from './ErrorResponse';
-export * from './GlobalVariableHelper';
-export * from './Logger';
+import * as Types from './types';
+
+export { Types };
+export * from './error-response';
+export * from './global-variable-helper';
+export * from './logger';
+export * from './global';
